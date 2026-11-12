@@ -1,0 +1,81 @@
+{
+  "snapshot_date": "2026-06-29",
+  "scrape_date_min": "2026-06-29",
+  "scrape_date_max": "2026-07-02",
+  "source_rows": 31069,
+  "active_listings": 15587,
+  "median_nightly_price_thb": 1574.63,
+  "median_estimated_occupancy_days": 66.0,
+  "median_reviews_ltm": 5.0,
+  "room_type_baselines": {
+    "Entire home/apt": {
+      "listing_count": 11612,
+      "median_nightly_price_thb": 1738.35,
+      "median_estimated_occupancy_days": 84.0
+    },
+    "Hotel room": {
+      "listing_count": 99,
+      "median_nightly_price_thb": 1438.0,
+      "median_estimated_occupancy_days": 24.0
+    },
+    "Private room": {
+      "listing_count": 3718,
+      "median_nightly_price_thb": 1184.6950000000002,
+      "median_estimated_occupancy_days": 36.0
+    },
+    "Shared room": {
+      "listing_count": 158,
+      "median_nightly_price_thb": 420.0,
+      "median_estimated_occupancy_days": 18.0
+    }
+  },
+  "neighborhoods": 48,
+  "room_neighborhood_groups": 138,
+  "pricing_gap_groups": 87,
+  "median_occupancy_city_baseline": 66.0,
+  "median_neighborhood_supply_cutoff": 82,
+  "minimum_neighborhood_sample_for_supply_flag": 30,
+  "low_supply_neighborhoods": 1,
+  "underpriced_in_demand_groups": 13,
+  "overpriced_weak_groups": 32,
+  "demand_crosscheck": {
+    "stable_neighborhoods_n": 33,
+    "spearman_occupancy_vs_reviews_ltm": 0.22453035014599101,
+    "spearman_occupancy_vs_future_unavailable_share": 0.7703513035863279,
+    "top10_occupancy_review_overlap": 3,
+    "top10_neighborhoods": 10,
+    "top10_occupancy_only": [
+      "Bang Phlat",
+      "Bang Sue",
+      "Khlong Toei",
+      "Parthum Wan",
+      "Phra Khanong",
+      "Ratchathewi",
+      "Vadhana"
+    ],
+    "top10_reviews_only": [
+      "Bang Khen",
+      "Bangkok Yai",
+      "Din Daeng",
+      "Lat Krabang",
+      "Pom Prap Sattru Phai",
+      "Samphanthawong",
+      "Saphan Sung"
+    ]
+  },
+  "cleaning": {
+    "source_rows": 31069,
+    "missing_or_unparseable_price": 2082,
+    "zero_or_negative_price": 0,
+    "valid_positive_price_rows": 28987,
+    "top_0_5_percent_price_outliers": 145,
+    "after_price_filters": 28842,
+    "inactive_zero_ltm_reviews": 13255,
+    "active_final_rows": 15587,
+    "active_rows_missing_bedrooms": 1845,
+    "active_rows_missing_rating": 0,
+    "active_rows_missing_estimated_occupancy": 0,
+    "removed_total_sequential": 15482,
+    "retained_share_of_source": 0.5016897872477389
+  }
+}

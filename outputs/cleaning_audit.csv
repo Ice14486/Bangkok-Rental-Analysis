@@ -1,0 +1,6 @@
+step,before,removed,retained
+Source listings rows,31069,0,31069
+Missing or unparseable price,31069,2082,28987
+Zero or negative price among price-present rows,28987,0,28987
+Highest 0.5% of valid positive prices,28987,145,28842
+No review in last 12 months,28842,13255,15587
