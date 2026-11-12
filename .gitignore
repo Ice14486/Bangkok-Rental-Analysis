@@ -1,0 +1,9 @@
+data/raw/*
+data/processed/*
+__pycache__/
+*.pyc
+
+# Local scratch and operating system files
+/work/
+/outputs/*.docx
+.DS_Store
